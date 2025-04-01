@@ -366,10 +366,13 @@ nav {
     align-items: start;
     margin-left: 20px;
   }
+  .esp__titulo{
+    margin-left: 20px
+  }
 
   .esp__paragrafo{
   font-size: 20px;
-  width: 300px;
+  width: 280px;
   margin-left: 10px;
   margin-bottom: 10px;
   margin-top: 20px;
