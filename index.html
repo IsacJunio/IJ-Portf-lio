@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <title>IJ - Portfólio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+  <!-- Nav Bar -->
+  <nav>
+    <div class="nav__logo">IJ</div>
+    <ul class="nav__ul">
+      <li><a href="#inicio">Inicio</a></li>
+      <li><a href="#esp">Especialidades</a></li>
+      <li><a href="#portfolio">Portfólio</a></li>
+      <li><a href="#">Feedbacks</a></li>
+    </ul>
+  </nav> 
+  <!-- Fim Nav Bar -->
+   <!-- inicio -->
+    <section class="inicio" id="inicio">
+      <div class="inicio__foto"><img src="images/Foto.jpg" alt="" ></div>
+      <div class="inicio__txt">
+        <div class="cube-loader">
+          <div class="cube-top"></div>
+          <div class="cube-wrapper">
+            <span style="--i:0" class="cube-span"></span>
+            <span style="--i:1" class="cube-span"></span>
+            <span style="--i:2" class="cube-span"></span>
+            <span style="--i:3" class="cube-span"></span>
+          </div>
+        </div>
+        <h1 >/Bem-vindo ao <br><span id="typing"></span>/</h1>
+        <p>Bem-vindo ao meu portfólio! Aqui você encontrará uma coleção dos meus trabalhos, 
+          projetos e experiências. <br>Cada criação reflete minha dedicação, 
+          criatividade e habilidade em [sua área de atuação]. 
+          Explore meus projetos e entre em contato caso queira colaborar ou saber mais sobre o meu trabalho!</p>
+           <a href="arquivos/Isac-CV.pdf" download="Isac-CV"><button class="inicio__btn">Baixar CV</button></a></a>
+      </div><!--inicio txt-->
+    </div> <!--inicio-->
+  </section><!--inicio-->
+  <!-- Fim do inicio -->
+
+  <!--Especialidades-->
+  <section class="esp" id="esp">
+    <div class="esp__container">
+      <div class="esp__titulo"><h2>Especialidades</h2></div><!--esp titulo-->
+
+      <div class="esp__paragrafo">
+        <p>Sou apaixonado por tecnologia e trabalho com HTML,
+          CSS e JavaScript. Comecei a programar aos 13 anos e, 
+          após uma pausa, retornei em 2025 focado em criação de sites. 
+          Estou desenvolvendo meu portfólio e um projeto para a sala de uma instituição, 
+          com um design moderno e minimalista, sempre buscando combinar estética e funcionalidade.</p>
+      </div><!--esp paragrafo-->
+
+    <div class="esp__icon">
+      <ul>
+        <li><i class='bx bxl-html5' style='color:#ffffff' ></i></li>
+        <li><i class='bx bxl-css3' style='color:#ffffff' ></i></li>
+        <li><i class='bx bxl-javascript' style='color:#ffffff' ></i></li>
+      </ul>
+    </div><!--esp icon-->
+
+    </div><!--esp container-->
+  </section>
+  <!--FIm das Especialidades-->
+
+  <!-- Portfolio -->
+  <section class="portfolio" id="portfolio">
+    <div class="portfolio__txt"><h2>Portfólio <div class="cube-loader"></div></div>
+    <div class="portfolio__container">
+        <div class="card">
+          <img src="images/Projeto-FanBase-MH.png" alt="">
+          <div class="card__content">
+            <p class="card__title">Fan Base MH
+            </p><p class="card__description">E um projeto de site de fans de Monster Hunter.</p>
+            
+            <a href="https://fan-base-mh.netlify.app/">
+              <button class="cta">
+                <span>Acessa o site</span>
+                <svg width="15px" height="10px" viewBox="0 0 13 10">
+                  <path d="M1,5 L11,5"></path>
+                  <polyline points="8 1 12 5 8 9"></polyline>
+                </svg>
+              </button><!--button-->
+            </a>
+            <a href="https://github.com/IsacJunio/Monster-Hunter">
+              <button class="cta">
+                <span>Código</span>
+                <svg width="15px" height="10px" viewBox="0 0 13 10">
+                  <path d="M1,5 L11,5"></path>
+                  <polyline points="8 1 12 5 8 9"></polyline>
+                </svg>
+              </button><!--button-->
+            </a>
+          </div><!--card__content-->
+          </div><!--card-->
+
+          <div class="card">
+            <img src="images/ProjetoDCML.png" alt="">
+            <div class="card__content">
+              <p class="card__title">Projeto de Logo Motor
+              </p><p class="card__description">E um projeto que fiz no illustrator.</p>
+            </div><!--card__content-->
+            </div><!--card-->
+
+            <div class="card">
+              <img src="images/ProjetoDCML1.png" alt="">
+              <div class="card__content">
+                <p class="card__title">Projeto de Logo DCML
+                </p><p class="card__description">E um projeto que fiz no illustrator.</p>
+              </div><!--card__content-->
+              </div><!--card-->
+
+    </div><!--portfolio container-->
+  </section><!--portfolio-->
+  <!-- Fim do Portfolio -->
+
+  <script src="script.js"></script>
+</body>
+
+<footer>
+  <div class="rotbar">&copy; 2025 Isac Junio - Todos os direitos reservados.</div>
+</footer>
+
+</html>
