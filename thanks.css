@@ -72,5 +72,17 @@ body {
   scale: 1;
 }
 
+@media (max-width: 450px) {
+  body {
+    align-items: start;
+    justify-items: center;
+    margin-top: 250px;
+    padding: 70PX;
+  }
+  h1{
+    text-align: center;
+  }
+}
+
 
 
